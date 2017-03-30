@@ -10,6 +10,14 @@
     float: left;
 }
 
+
+.pull-left {
+    margin: auto;
+    width: 60%;
+    padding: 30px;
+    float: left;
+}
+
 .center-left h4 {
     //font-family: 'Sacramento', cursive;
     font-family: 'Amatic SC', cursive;
@@ -27,4 +35,15 @@ nav {
     float: right;
     width: 40%;
     margin: auto;
+}
+
+
+.avatar {
+    margin: auto;
+    padding: 10px 30px 20px 30px;
+}
+
+.media-body h2 {
+    font-weight:bold; 
+    font-size: 40pt;
 }
