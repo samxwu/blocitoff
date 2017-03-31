@@ -19,8 +19,25 @@
                 2%
               </div>
             </div>
-        <a href="#">My To-Do List</a>    
 
+     <div>
+       <h3>To Do Items</h3>
+           <% @user.items.each do |item| %>
+               <div class="media">
+                   <div class="media-body">
+                       <div class="media-heading">
+                           <%= item.name %>
+                       </div>
+                   </div>
+               </div>
+            <% end %>
+     <br>
+     <br>
+     <% if current_user %>
+         <%= render 'items/form', item: Item.new, user: @user %>
+     <% end %>
+    </div>
+   
        </div>
      </div>
    </div>
