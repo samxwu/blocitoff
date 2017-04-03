@@ -29,6 +29,7 @@ source 'https://rubygems.org'
    gem 'shoulda'
    gem 'factory_girl_rails'
    gem 'pry-rails'
+   gem 'faker'
  end
  
  
