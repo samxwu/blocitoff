@@ -1,6 +1,6 @@
 <div class="row">
-   <div class="col-md-8">
-     <div class="media">
+    <div class="col-md-8">
+      <div class="media">
        <br />
        <% avatar_url = @user.avatar_url(128) %>
        <% if avatar_url %>
@@ -10,35 +10,35 @@
            </div>
          </div>
        <% end %>
-       <div class="media-body">
-         <h2 class="media-heading"><%= @user.username %></h2>
-         <h5 class="media-heading">Email: <%= @user.email %></h5>
-         <h6>Current Progress:</h6>   
+        <div class="media-body">
+            <h2 class="media-heading"><%= @user.username %></h2>
+            <h5 class="media-heading">Email: <%= @user.email %></h5>
+            <h6>Current Progress:</h6>   
             <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
                 2%
               </div>
             </div>
-
-     <div>
-       <h3>To Do Items</h3>
-           <% @user.items.each do |item| %>
-               <div class="media">
-                   <div class="media-body">
-                       <div class="media-heading">
-                           <%= item.name %>
-                       </div>
-                   </div>
-               </div>
+            <h3>To Do Items</h3>
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Description</th>
+                    <th>Complete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class='js-items'>
+                  <%= render @user.items %>
+                  </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <% if current_user %>
+                 <%= render 'items/form', item: Item.new, user: @user %>
             <% end %>
-     <br>
-     <br>
-     <% if current_user %>
-         <%= render 'items/form', item: Item.new, user: @user %>
-     <% end %>
+        </div>
+      </div>
     </div>
-   
-       </div>
-     </div>
-   </div>
- </div>
+  </div>
