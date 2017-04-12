@@ -33,8 +33,14 @@ source 'https://rubygems.org'
  end
  
  
+ group :test do
+      gem 'simplecov', :require => false
+ end
 
- 
+ group :development do
+      gem 'better_errors'
+      gem 'binding_of_caller'
+ end
  
  
  

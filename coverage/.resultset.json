@@ -1,0 +1,110 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/ubuntu/workspace/app/helpers/items_helper.rb": [
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/helpers/users_helper.rb": [
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/helpers/welcome_helper.rb": [
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/controllers/welcome_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/controllers/items_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/controllers/users_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/models/item.rb": [
+        0,
+        0,
+        0
+      ],
+      "/home/ubuntu/workspace/app/models/user.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1492020490
+  }
+}
