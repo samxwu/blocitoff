@@ -1,4 +1,6 @@
 class ItemsController < ApplicationController
+  
+  include ItemsHelper
 
   def create
 
