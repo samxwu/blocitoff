@@ -8,6 +8,7 @@ class ItemsController < ApplicationController
     @item.name = params[:item][:name]
     @item.user = current_user
 
+    
     if @item.save
       flash[:notice] = "Item was saved successfully."
       redirect_to user_path(current_user.id)

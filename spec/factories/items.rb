@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :item do
-    name "MyString"
+    name "Read a book."
     user nil
   end
 end

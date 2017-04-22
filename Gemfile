@@ -21,6 +21,7 @@ source 'https://rubygems.org'
  gem 'bootstrap-sass'
  gem 'figaro'
  gem 'devise'
+ gem 'bcrypt'
 
  group :development, :test do
    gem 'byebug'
@@ -31,6 +32,7 @@ source 'https://rubygems.org'
    gem 'factory_girl_rails'
    gem 'pry-rails'
    gem 'faker'
+   #gem 'ffaker'
  end
 
 
